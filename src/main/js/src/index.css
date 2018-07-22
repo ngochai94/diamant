@@ -1,0 +1,210 @@
+body {
+  background-image: url('resource/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+
+}
+
+.side-bar {
+  width: 25%;
+  position: absolute;
+  left: 0;
+  height: 100%;
+  background: rgba(200,200,200,.85);
+  box-shadow: -3px 0 3px 0 rgba(0,0,0,.75);
+}
+
+.play-area {
+  width: 75%;
+  position: absolute;
+  right: 0;
+  height: 100%;
+}
+
+.card {
+  width: 100px;
+  height: 140px;
+  margin: 10px;
+  float: left;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card-small {
+  width: 50px;
+  margin: 5px;
+  float: left;
+  position: relative;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.card-area {
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 20px;
+}
+
+.image-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: 40px;
+  text-shadow: 3px 3px black;
+  color: white;
+}
+
+.text-gold {
+  color: gold;
+}
+
+.user {
+  margin: 20px;
+  border-radius: 20px;
+  background-color: white;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+  font-family: Helvetica, serif;
+  padding: 10px;
+}
+
+.user-icon {
+  width: 20px;
+  vertical-align: middle;
+}
+
+.user-name {
+  width: 60%;
+  float: left;
+  vertical-align: middle;
+}
+
+.user-score {
+  width: 20%;
+  float: left;
+  vertical-align: middle;
+}
+
+.choice-area {
+  height: 20%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  padding: 50px;
+  background: rgba(200,200,200,.5);
+}
+
+.button-choice {
+  width: 20%;
+}
+
+.inactive-area {
+  height: 10%;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: rgba(100, 100, 100, .5);
+  border: black 2px dotted;
+}
+
+.earning-area {
+  width: 100%;
+  height: 10%;
+  position: absolute;
+  bottom: 10%;
+  background: rgba(100, 100, 100, .5);
+  border: black 2px dotted;
+}
+
+.earning-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 900;
+  font-size: 40px;
+  text-shadow: 3px 3px black;
+  color: gold;
+}
+
+.login-area {
+  width: 100%;
+  height: 20%;
+  position: absolute;
+  bottom: 20%;
+  background: rgba(100, 100, 100, .5);
+  border: black 2px dotted;
+  text-align: center;
+  padding: 20px 30px 30px;
+}
+
+.rotate {
+  animation: icon-loading 2s linear infinite;
+}
+
+i {
+  float: left;
+}
+
+.login-input {
+  width: 90%;
+  margin: 5%;
+}
+
+.login-join {
+  width: 90%;
+  margin: 5%;
+}
+
+.input {
+  width: 100%;
+}
+
+.primary {
+  width: 100%;
+}
+
+.room-area {
+  width: 100%;
+  height: 40%;
+  position: absolute;
+  bottom: 20%;
+  background: rgba(100, 100, 100, .5);
+  border: black 2px dotted;
+  text-align: center;
+  padding: 10px;
+}
+
+.room-content {
+  font-size: 18px;
+  marign: 6px;
+}
+
+.round-area {
+  left: calc(50% - 2em);
+  top: 50%;
+  position: absolute;
+  min-width: 4em;
+  min-height: 4em;
+  padding: 1em!important;
+  line-height: 2em;
+  text-align: center;
+  border-radius: 500rem;
+  font-size: 1.71428571rem;
+  background-color: #2185d0!important;
+  border-color: #2185d0!important;
+  color: #fff!important;
+  display: inline-block;
+  vertical-align: baseline;
+
+}
